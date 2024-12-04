@@ -5,7 +5,7 @@
   "homepage": "https://caption-gen-client-production.up.railway.app/",
   "type": "module",
   "scripts": {
-    "start": "serve -s build",
+    "start": "serve -s dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
