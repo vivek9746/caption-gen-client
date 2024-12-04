@@ -64,7 +64,7 @@ const CaptionGenerator = () => {
       formData.append("context", context);
       formData.append("regenerate", regenerate);
       const response = await axios.post(
-        "http://localhost:3000/generate-caption",
+        "https://web-production-0911.up.railway.app/generate-caption",
         formData,
         {
           headers: {
