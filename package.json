@@ -2,6 +2,7 @@
   "name": "caption-gen-client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://caption-gen-client-production.up.railway.app/",
   "type": "module",
   "scripts": {
     "start": "serve -s build",
